@@ -1,0 +1,418 @@
+
+header.home{
+	background-color:#000033;
+	background-size: cover;
+
+}
+
+ul.a{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #000033;
+  
+}
+
+li.a{
+  float: right;
+ }
+
+li.a a:hover{
+color: rgb(	243, 193, 58);
+font-family:'roboto', sans-serif;
+}
+
+li.a a {
+  display: block;
+  color: #777777 ;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family:'roboto', sans-serif;
+
+  font-weight: bold;
+
+}
+h1.home{
+	font-family: garamond;
+	color: white;
+	font-style: normal;
+	font-size: 3.5em;
+	font-weight: normal;
+}
+.form-popup {
+  display: none;
+  position: fixed;
+  bottom: 10px;
+top:0;
+left:450px;
+ z-index: 1;
+}
+.form-container {
+  max-width: 400px;
+  padding: 10px;
+  background-color: white;
+}
+.form-container input[type=text], .form-container input[type=password] {
+  width: 400px;
+  padding: 0;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+
+}
+h2.home{
+	font-family: garamond;
+	color: white;
+	font-style: normal;
+	font-weight: normal;
+
+}
+button.home{
+	background-color: black;
+	background-size: 200% auto;
+	padding: 5px 35px 5px ; 
+	border-color: black;
+	color: dodgerblue;
+	font-family:'roboto', sans-serif;
+
+}
+button.home1{
+	background-color:#000033 ;
+	float: bottom;
+	border: none;
+	color: #777777 ;
+	font-family:'roboto', sans-serif;
+	font-size: 15px;
+  font-weight: bold;
+  padding-top: 15px;
+
+}
+body.home {
+ background-image: url('../images/16.jpg');
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+ background-size: cover;
+ background-color: #FFFFFF;
+}
+/* until home*/
+
+/* head logo*/
+
+body.head {
+
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+ background-size: cover;
+ background-color: rgb(12, 6, 34);
+}
+
+h4.head{
+	color:#777777;
+	font-family: 'Rajdhani', sans-serif;
+	font-weight: normal;
+	font-size: 11px;
+	line-height: 15px;
+}
+
+/* skills */
+div.skill{
+	display: inline-block;
+	width: 300px;
+	text-align: right;	
+	color:white;
+
+		
+}
+h1.skill{
+	color:rgb(217, 217, 217);
+	font-family: 'Rajdhani', sans-serif;
+	font-size: 40px;
+	line-height: 40px;
+}
+
+img.skill{
+	width: 300px;	
+	height: 350px;
+	padding: 20px;
+}
+div.skill1{
+	display: inline-block;
+	width:300px;
+	top:100;
+	position: absolute;
+	padding: 10px 50px;
+	line-height: 15px;
+	left:400px;
+}
+img.skill1{
+	width: 60px;
+	height: 50px;
+}
+h3.skill1{
+	color: #777777 ;
+	font-family: 'Rajdhani', sans-serif;
+	font-size: 16px;
+}
+p.skill1{
+	color:  #777777;
+	font-family: 'Rajdhani', sans-serif;
+	font-size: 12px;
+}
+div.skill2{
+display: inline-block;
+position: absolute;
+width:300px;
+	top:100;
+	left: 800px;	
+
+}
+div.skill3{
+display: inline-block;
+position: absolute;
+width:300px;
+	top:200px;
+	padding: 10px 50px;
+	left:400px;
+	
+
+}
+div.skill4{
+display: inline-block;
+position: absolute;
+width:300px;
+	top:220px;
+	left: 800px;	
+
+}
+div.skill5{
+display: inline-block;
+position: absolute;
+width:700px;
+	top:350px;
+	left: 450px;	
+
+}
+div.WorkEx{
+	margin-left: 100px;
+	margin-right: 100px;
+
+}
+
+div.work{
+	width:300px;
+	border-right:1px solid white;
+	margin-right: 100px;
+	padding-right: 50px;
+	padding-bottom: 50px;
+	
+
+}
+div.details{
+	text-align: right;
+}
+div.description{
+	display: inline-block;
+	position: relative;
+	width:600px;
+	left: 380px;	
+	top:-150px;
+}
+div.workEx{
+	margin-left: 40px;
+	padding-bottom: 50px;
+}
+h1.title{
+color:rgb(217, 217, 217);
+	font-family: 'Rajdhani', sans-serif;
+	font-size: 40px;
+	line-height: 40px;
+}
+div.buttons{
+	margin-left: 40px;	
+}
+button.head{
+	background-color: rgb(12, 6, 34);
+	background-size: 200% auto;
+	padding: 5px 35px 5px ; 
+	
+	border: 2px solid dodgerblue;
+	color: #777777;
+
+}
+button.head:focus {
+color: white;
+background-color: dodgerblue;
+
+}
+div.work1{
+	padding-left: 40px;
+	padding-top: 20px ;
+}
+img.app{
+	float: left;
+	width:200px;
+	height:280px;
+}
+h2.app{
+	float: right;
+	padding-left: 10px
+}
+button.apps{
+	float: left
+	width: 280px;
+	align-content: center;
+	background-color: rgb(12, 6, 34);
+	background-size: 200% auto;
+	padding: 5px 35px 5px ; 
+	border:none;
+	color: #777777;
+	border-bottom: 20px solid rgb(46, 88, 148);
+	margin:10px;
+}
+
+/* hire */
+ h1.hire {
+ 	color:rgb(217, 217, 217);
+	font-family: 'Rajdhani', sans-serif;
+	font-size: 50px;
+	line-height: 20px;
+	margin-left: 50px;
+ }
+
+ p.hire{
+ color: white;
+}
+ div.hire {
+ 	color:rgb(46, 88, 148);
+	font-family: 'Rajdhani', sans-serif;
+	font-weight: bold;
+ 	margin-left: 400px;
+ 	margin-top: 150px;
+ 	border-left-color: white;
+ 	border-left-style: solid;
+ 	border-left-width: 3px;
+ 	padding-left: 40px;
+ 	padding-bottom: 30px;
+ 	margin-bottom: 40px;
+ }
+
+button.hire {
+	background-color: rgb(12, 6, 34);
+	color: white;
+	font-family: 'Rajdhani', sans-serif;
+	border-color: black;
+
+
+}
+
+ img.hire {
+float: left;
+margin-top: 150px;
+margin-left: 50px;
+ }
+font.a{
+	color:rgb(217, 217, 217);
+	font-family: Rajdhani, sans-serif;
+	margin-top: 0px;
+	display: inline-block;
+}
+
+h1.rec {
+	font-size: 4em;
+	color: white;
+	font-family: roboto, sans-serif;
+	text-align: left;
+	margin-top: 200px;
+	margin-left: 50px;
+}
+
+h2.rec {
+	float: left;
+	margin-left: 50px;
+	color: white;
+	font-family: roboto,sans-serif;
+}
+
+p.rec{
+	color: white;
+	font-family: roboto,sans-serif;
+	font-weight: normal;
+}
+
+img.rec{
+	border-radius: 50%;
+}
+div.rec {
+ 	font-size: 2em;
+ 	text-align: left;
+ 	margin-top: 100px;
+ 	margin-left: 500px;
+
+ }
+font.b{
+	color:#777777;
+	font-family: Rajdhani, sans-serif;
+	font-weight: normal;
+	margin-top: 0px;
+	display: inline-block;
+}
+font.month{
+	font-family: Rajdhani, sans-serif;
+	color:hsl(247, 0%, 85%);
+	font-weight: normal;
+	font-size: 10px;
+	word-spacing: 30px;
+}
+font.year{
+	font-family: Rajdhani, sans-serif;
+	color:dodgerblue;
+	font-weight: bold;
+	font-size: 25px;
+
+}
+font.company
+{
+	font-family: Rajdhani, sans-serif;
+	color:rgb(217, 217, 217);
+	font-weight: bold;
+	
+}
+font.title{
+	color:#777777;
+	font-family: Rajdhani, sans-serif;
+	font-size: small;	
+}
+.wrapper{
+
+    width:80%;
+    height:auto;
+    margin:150px auto;
+    text-align: center;
+    
+}
+.wrapper2{
+	overflow: hidden;
+}
+ul.hm {
+  list-style: none;
+}
+
+ul.hm li:before {
+  content:" \2714\0020";
+}
+
+.home1:hover{
+color: rgb(	243, 193, 58);
+}
+
+div.footer{
+text-align: center;
+font-weight: bold;
+font-family: 'Rajdhani', sans-serif;
+background-color: #102442;
+padding: 20px;
+color: #98ADCE;
+margin-top: 400px;
+}

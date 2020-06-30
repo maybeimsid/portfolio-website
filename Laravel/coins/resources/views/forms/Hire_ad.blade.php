@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="{{asset('css/app.css')}}">
+	 <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>	
+	<title>
+				Hire
+	</title>
+</head>
+<body class ="head">	
+	<header class="home">
+	
+	<ul class="a">
+			<li style="float:left" class="a">	<img src="images\logo2.png" alt="Italian Trulli"></li>
+			<li style="float:right" class="a"><a href="#home">SIGN UP</a></li>
+			<li style="float:right" class="a"><button class="home1" onclick="openForm()" type="button">LOG IN</button></a></li>
+			<li style="float:right" class="a"><a href="/Hire">HIRE ME</a></li>
+			<li style="float:right" class="a"><a href="http://sidharthmalik.uta.cloud">BLOG</a></li>
+			<li style="float:right" class="a"><a href="/Mywork">WORKS</a></li>
+			<li style="float:right" class="a"><a href="/recommendations">RECOMMENDATION</a></li>
+  			<li style="float:right" class="a"><a href="/Skills">MY SKILLS</a></li>
+  			<li style="float:right" class="a"><a href="/home">HOME</a></li> 		
+		</ul>
+	</header>
+
+	<h1 class="hire">HIRE ME</h1>
+	<h4 class='head'>
+		I am looking to expand my portfolio while I'm young Luiz M Alwarez<br>
+		brings your content to life with stunning clarity 
+	</h4>
+
+	<img class="hire" src="images\car1.png" width="200" height="150">
+
+	<div class="hire">
+	$300<br><br>
+	Design for Natural People<br><br>
+	 <ul>
+	 <li>Logo</li>
+	<li> Advertising image to print</li>
+	<li> Photo editing</li><br>
+	</ul>
+	<button class="hire">CONTACT US</button>
+	</div>
+
+	<hr>
+	<img class="hire" src="images\car2.png" width="200" height="150">
+
+	<div class="hire">
+	$650<br><br>
+	informative website design<br><br>
+	 <ul class="hm">
+	 <li>Logo</li>
+	 <li>Photo Editing</li>
+	 <li>Site construction</li>
+	<li>Maintanace gor 6 months</li>
+	</ul>
+	<br>	
+	<button class="hire">CONTACT US</button>
+	</div>
+
+	<hr>
+	<img class="hire" src="images\car3.png" width="200" height="150">
+
+	<div class="hire">
+	$1450<br><br>
+	3D Character Design<br><br>
+	<ul>
+	<li>Character Sketch</li>
+	<li>Digitization and Development</li>
+	<li>Animation</li><br>
+	<button class="hire">CONTACT US</button>
+
+	</div>
+<hr>
+<div class="form-popup" id="myForm_l">
+  		<form action="/web_ad" class="form-container" style="background-color: grey">
+    	<h1>Login</h1>
+
+    	<label for="email"><b>user</b></label>
+    	<input type="text"  name="user" required>
+
+    	<label for="psw"><b>Password</b></label>
+    <input type="password"  name="psw" required>
+
+    <button type="submit" class="btn">Submit</button>
+    <button type="button" class="btn cancel" onclick="closeForm()">Cancel</button>
+  </form>
+</div>
+
+
+<script>
+function openForm() {
+  document.getElementById("myForm_l").style.display = "block";
+}
+
+function closeForm() {
+  document.getElementById("myForm_l").style.display = "none";
+}
+</script>
+</body>
+<footer>
+		
+	<div class="footer">CONTACT ME<br>Have a project you'd like to discuss?<br><br><br><br><br>LUIS M. ALVAREZ<br>luis.malvarez@gmail.com</div>
+		
+	
+	<ul class="a">
+			
+			
+			
+			
+			
+  			
+  			<li style="float:left" class="a"><a href="/home">HOME</a></li>
+<li style="float:left" class="a"><a href="/Skills">MY SKILLS</a></li>
+<li style="float:left" class="a"><a href="/recommendations">RECOMMENDATION</a></li>
+<li style="float:left" class="a"><a href="">CUSTOMERS</a></li> 
+<li style="float:left" class="a"><a href="/Mywork">WORKS</a></li>
+	                <li style="float:left" class="a"><a href=>CONTACT FORM</a></li>
+		</ul>
+	
+	
+
+</footer>
