@@ -1,9 +1,0 @@
-AUTHOR: SIDHARTH MALIK
-STUDENT ID: 1001746616
-NET-ID:SXM6616
-
--------------------------------------------
-
-UTA CLOUD DEPLOYMENT URL:https://sidharthmalik.uta.cloud/project/home.html
-
-------------------------------------------
